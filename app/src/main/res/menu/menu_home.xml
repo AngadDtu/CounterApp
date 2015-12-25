@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".HomeActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_set" android:title="Set value"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/action_reset" android:title="Reset"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/action_store" android:title="Previous Value"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/action_email" android:title="Email us"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_web" android:title="About us"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
